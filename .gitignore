@@ -1,0 +1,15 @@
+# secrets — 퍼블릭 레포이므로 절대 커밋 금지
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# deps / build
+node_modules/
+dist/
+.next/
+__pycache__/
+.venv/
+.DS_Store
